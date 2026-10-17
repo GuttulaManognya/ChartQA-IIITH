@@ -10,7 +10,32 @@ Visual and quantitative reasoning over charts using the [ChartQA dataset](https:
 
 ## Run
 
-_TBD_
+Start by intialising a python 3.10 virtual env
+
+## Setup Instructions
+
+### Windows (PowerShell)
+
+```
+py -3.10 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python Bootstrap.py
+```
+
+### macOS
+
+```
+python3.10 -m venv .venv
+source .venv/bin/activate
+python Bootstrap.py
+```
+
+Key points:
+
+- Use Python 3.10.
+- The virtual environment must be named `.venv`.
+- Run `Bootstrap.py` only after activating the virtual environment.
+- Run these commands from the repository root directory.
 
 ## Deploy
 

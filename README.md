@@ -19,7 +19,7 @@ Start by intialising a python 3.10 virtual env
 ```
 py -3.10 -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python Bootstrap.py
+python utils/Bootstrap.py
 ```
 
 ### macOS
@@ -27,7 +27,7 @@ python Bootstrap.py
 ```
 python3.10 -m venv .venv
 source .venv/bin/activate
-python Bootstrap.py
+python utils/Bootstrap.py
 ```
 
 Key points:
